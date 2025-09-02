@@ -1,0 +1,28 @@
+
+<Application x:Class="WinSwitch.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="Views/MainWindow.xaml">
+    <Application.Resources>
+        <!-- Light, clean look -->
+        <ResourceDictionary>
+            <SolidColorBrush x:Key="AccentBrush" Color="#0078D4"/>
+            <Style TargetType="Button">
+                <Setter Property="Padding" Value="12,8"/>
+                <Setter Property="Margin" Value="0,6,0,0"/>
+                <Setter Property="BorderThickness" Value="0"/>
+                <Setter Property="Background" Value="{StaticResource AccentBrush}"/>
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="FontWeight" Value="SemiBold"/>
+                <Setter Property="Cursor" Value="Hand"/>
+            </Style>
+            <Style TargetType="TextBlock">
+                <Setter Property="TextWrapping" Value="Wrap"/>
+            </Style>
+            <Style TargetType="ProgressBar">
+                <Setter Property="Height" Value="8"/>
+                <Setter Property="Margin" Value="0,12,0,0"/>
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

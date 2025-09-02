@@ -1,0 +1,87 @@
+############################
+# Build outputs
+############################
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+[Ll]ogs/
+
+############################
+# Visual Studio
+############################
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+############################
+# Rider / JetBrains
+############################
+.idea/
+*.iml
+
+############################
+# OS files
+############################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+############################
+# Coverage & test results
+############################
+TestResults/
+*.coverage
+*.coveragexml
+*.codecoverage
+*.trx
+
+############################
+# NuGet / Packages
+############################
+*.nupkg
+*.snupkg
+*.nuspec
+project.lock.json
+artifacts/
+packages/
+*.vsix
+
+############################
+# Publish
+############################
+publish/
+dist/
+out/
+*.exe
+*.dll
+*.pdb
+*.appx
+*.msix
+*.msixupload
+*.appxbundle
+
+############################
+# Logs / Temp
+############################
+*.log
+*.tlog
+*.tmp
+*.bak
+
+############################
+# User-specific settings
+############################
+*.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+############################
+# AI / Codacy instructions
+############################
+.github/instructions/codacy.instructions.md
